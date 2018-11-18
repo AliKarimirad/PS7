@@ -2,3 +2,10 @@
 *.jl.*.cov
 *.jl.mem
 deps/deps.jl
+using InstantiateFromURL
+activate_github("QuantEcon/QuantEconLecturePackages", tag="v0.3.1")
+using QuantEcon
+using LinearAlgebra, Statistics, Compat
+using LaTeXStrings
+using Plots
+using Parameters
