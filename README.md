@@ -1,13 +1,12 @@
 # PS7
 homework 7-econ628
 
-The utility function is:
+This is a simple Ayaghari model with state variables.
 
-#---Household Problem
+The utility function is:
 
 u(c,σ)= (c^(1-σ))/(1-σ) 
 
-r=0.00 
 The parameters are:
 
 AiyagariModel = @with_kw (β=0.96,
@@ -21,3 +20,5 @@ AiyagariModel = @with_kw (β=0.96,
     a_max=15,
     a_size=150) 
 param = AiyagariModel()
+
+
