@@ -12,11 +12,11 @@ The parameters are:
 AiyagariModel = @with_kw (?=0.96,
     ?=1.1,
     ?=0.33,
-    A=0.5,
+    A=2,
     ?=0.05,
     z=[0.1; 1.0],
     p=[0.9 0.1; 0.1 0.9],
     a_min=1e-10,
-    a_max=25,
+    a_max=20,
     a_size=150)
 param = AiyagariModel()
